@@ -1,6 +1,6 @@
 FROM rbekker87/armhf-alpine:3.7
 
-RUN addgroup -S redis && adduser -S -G redis redis &&\
+RUN addgroup -S redis && adduser -S -G redis redis && \
     apk update && add --no-cache 'su-exec>=0.2' redis && \
     mkdir /data && chown -R redis:redis /var/lib/redis /data
 
