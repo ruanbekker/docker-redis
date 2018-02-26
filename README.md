@@ -5,4 +5,4 @@ Source Code for Redis Images on Dockerhub
 
 For ARM:
 
-- [rbekker87/redis:alpine-arm](https://hub.docker.com/u/rbekker87/redis)
+- [rbekker87/redis:alpine-armhf](https://hub.docker.com/u/rbekker87/redis)
