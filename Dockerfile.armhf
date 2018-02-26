@@ -6,4 +6,4 @@ RUN addgroup -S redis && adduser -S -G redis redis && \
 
 WORKDIR /data
 
-CMD ["su-exec", "redis", "/usr/bin/redis-server"]
+CMD ["su-exec", "redis", "/usr/bin/redis-server", "--protected-mode no"]
